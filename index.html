@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Menu de navegação -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Foto no topo -->
+        <div class="foto-topo">
+            <img src="imagem/foto_pessoal.jpeg" alt="Minha Foto">
+        </div>
+    <!-- Seção Sobre Mim -->
+    <section id="sobre-mim">
+        <h1>Sobre Mim</h1>
+        <p>Olá! Meu nome é Emanuel Matheus. Sou estudante de tecnologia há mais de 2 anos e no decorrer dessa caminhada me identifiquei com a área de dados. Sou apaixonado por música e toco um pouquinho de um monte de instrumentos.</p>
+    </section>
+
+    <!-- Seção Formação -->
+    <section id="formacao">
+        <h1>Formação</h1>
+        <p><p>Por iniciar a carreira na área técnica, me formei inicialmente em Técnico em Telecomunicações. Hoje, curso Ciência de Dados na instituição Uninter.</p>         
+        </p>
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio">
+        <h1>Portfólio</h1>
+        <p>Aqui estão alguns dos projetos que desenvolvi:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/posts/emanuel-matheus-ribeiro-b31b181b9_python-pandas-etl-activity-7246183195530936321-QFzc?utm_source=share&utm_medium=member_desktop" target="_blank">Análise de dados Públicos</a></li>
+
+            <li><a href="https://www.linkedin.com/posts/emanuel-matheus-ribeiro-b31b181b9_python-algoritmo-programador-activity-7178724923010392064-kXsn?utm_source=share&utm_medium=member_desktop" target="_blank">Projeto em Python</a></li>
+
+        </ul>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h1>Contato</h1>
+        <form action="#" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Java Script -->
+    <script src="script.js"></script>
+
+</body>
+</html>
